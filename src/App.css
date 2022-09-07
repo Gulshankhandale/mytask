@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+.plus{
+    font-size: 11px;
+    margin-top: -1px;
+    color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flipkart-search{
+    width: 30rem;
+    border-radius: 0 !important;
+    padding: 4px 7px !important;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-form{
+    margin-left: 1rem !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo-margin{
+    margin-left: 5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.login-button{
+    --bs-btn-padding-x: 13px !important;
+    --bs-btn-padding-y:4px !important;
+    --bs-btn-border-radius: 0rem !important;
+    --bs-btn-bg: #ffffff;
+    --bs-btn-color: #1380ed;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-button:hover{
+    color: #1380ed;
+    background-color: #fff;
+}
+
+.login-col-1{
+    background-color: #2874f0;
+    background-image: url("https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png");
+    background-position: center 85%;
+    background-repeat: no-repeat;
+    padding: 40px 33px;
+    height: 28rem;
+    width: 40%;
+}
+
+.login-col-2{
+    width: 60%;
 }
